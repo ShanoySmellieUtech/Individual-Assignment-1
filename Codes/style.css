@@ -1,0 +1,201 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-decoration: none;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+.homepage{
+    background-image: radial-gradient(yellow,blue);
+
+}
+.professionalpage{
+    background-image: radial-gradient(yellow,blue);
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding:6rem 12%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; 
+}
+
+.pdf{
+    height: 100vh;
+    width: 50%;
+    border: 2px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.personalitypage{
+    background-image: radial-gradient(yellow,blue);
+    background-attachment: fixed;
+}
+.personaldevpage{
+    background-image: radial-gradient(yellow,blue);
+    background-attachment: fixed;
+}
+.name{
+    font-family:"papyrus", fantasy;
+}
+header{
+    position: fixed;
+    top: 1rem;
+    left: 50%; 
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background-color: rgb(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 3rem;  
+    z-index: 1000;
+}
+.logo{
+    color: white;
+    font-size: 1.3rem;
+    font-weight:600;
+    text-wrap: nowrap;
+    transition: 0.3s ease-in-out;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    white-space: nowrap;
+}
+li a{
+    position: relative;
+    color: white;
+    font-weight: 300;
+}
+li a::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 0;
+    height: 5px;
+    top: 25px;
+    border-radius: 1rem;
+    transition: 0.3s ease-in-out;
+    background: linear-gradient(to right, rgb(0, 157, 255), rgb(252, 254, 76), rgb(50, 38, 218));
+}
+li a:hover::before{
+    width: 100%;
+}
+
+
+.visit-github{
+    padding: 0.8rem 1.5rem;
+    border-radius: 3rem;
+    border:none;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    text-wrap:nowrap;
+    transition: 0.3s ease-in-out;
+    background: linear-gradient(to right, rgb(50, 38, 218), rgb(252, 254, 76), rgb(50, 38, 218));
+}
+.visit-github:hover{
+    background: linear-gradient(to right,rgb(50, 38, 218), rgb(252, 254 , 76));
+    transform: scale(1.03);
+}
+#menu-icon{
+    font-size: 2rem;
+    display: none;
+}
+
+
+
+section{
+    min-height: 100vh;
+    padding: 17rem 12%;
+    width: 100%;
+    position: relative;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6rem;
+    font-family:"papyrus", fantasy;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 120px;
+}
+p{
+  line-height: 2;
+  text-align: center;
+
+}
+.space{
+    margin-bottom: 20px ;
+}
+
+.home .about-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+ .circle-image {
+    width: 30vw;
+    border-radius: 30%; 
+     
+  }
+
+.info-box{
+     display:flex;
+     flex-direction: column;
+     text-align: center;
+     align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+a{
+    color: black;
+}
+
+.info-box h1{
+    font-size: 4rem;
+    font-weight: 600;
+    opacity:0.8;
+}
+.center{
+    text-align: center;
+}
+
+hr{
+    color: blue;
+    height: 2px;
+    width: 50%;
+    margin: 0 auto;
+}
+.info-box h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
